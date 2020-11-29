@@ -1,1 +1,28 @@
-Primer commit
+Crea un repositorio de Git y haz tu primer commit
+pwd
+//ver path actual
+git init
+//crear repositorio Git
+ls -al
+//obtiene una lista de los elementos existentes en el path actual
+git status
+// muesta el estado actual de los archivos con respecto al repositorio Git
+git add Clase10.txt
+// agrega el archivo "Clase10.txt" a la zona de cambios de git
+git rm --cached Clase10.txt
+// retita el archivo "Clase10.txt" de la zona de cambios de git
+git commit -m "Se agrega el archivo "Clase10.txt" al repositorio de Git"
+// Agrega el archivo "Clase10.txt" al repositorio de Git
+
+
+##################################Congigurar Git############################################
+git config
+//muestra las opciones de Congigurar git
+git config --list
+//mustra la configuracion actual de git
+git config --list --show-origin
+//muestra donde esta la configuracion actual de git
+$ git config --global user.name "Nicolas Fiquitiva Segura"
+//define el nombre de usuario que esta usando Git
+$ git config --global user.name "Nico52105@gmail.com"
+//define el mail de usuario que esta usando Git
