@@ -1,5 +1,7 @@
 ---------------------------------------------------------
 ····Introducción a las ramas o branches de Git····
 ---------------------------------------------------------
-git commit -an
-//se hace commit directamente sin comando add
+git commit -a
+//se hace commit directamente sin comando add y solicita mensaje para el commit
+git commit -am "Se guardan cambios de clase 15"
+//se hace commit directamente sin comando add y con mensaje de commit
