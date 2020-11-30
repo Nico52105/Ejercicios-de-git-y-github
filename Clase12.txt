@@ -11,3 +11,6 @@ git log -- Clase10.txt
 //Muetra los commit realizados sobre un archivo
 git checkout [Id de checkout]
 //retorna el repositorio a la version de checkout que se desea
+##desde este punto se pueden restablecer una version anterior con git add y git commit
+git checkout master
+//retorna el repositorio al ultimo checkout realizado en la master
