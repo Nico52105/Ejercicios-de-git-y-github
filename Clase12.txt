@@ -1,0 +1,8 @@
+---------------------------------------------------------
+····Volver en el tiempo en nuestro repositorio utilizando reset y checkout····
+---------------------------------------------------------
+git reset [id comit que se desea restablecer] --hard
+//Con este comando se puede volver a una version anterior del repositorio 
+##tener cuidado ya que el git log es borrado y se puede perder el id del commit mas reciente y quedar atorado en una version muy antigua
+git log --stat
+//Muestra en detalle los cambios realizados a los archivos

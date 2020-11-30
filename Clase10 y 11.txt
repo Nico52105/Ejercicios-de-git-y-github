@@ -44,6 +44,3 @@ git commit
 git log Clase10.txt
 git diff [id comit mas antiguo] [id comit mas reciente]
 //Con estos dos comandos puedo comparar dos versiones del mismo archivo
-git reset [id comit que se desea restablecer] --hard
-//Con este comando se puede volver a una version anterior del repositorio 
-##tener cuidado ya que el git log es borrado y se puede perder el id del commit mas reciente y quedar atorado en una version muy antigua
