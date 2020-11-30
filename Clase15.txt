@@ -3,5 +3,7 @@
 ---------------------------------------------------------
 git commit -a
 //se hace commit directamente sin comando add y solicita mensaje para el commit
+##tener en cuenta que no existan archivos nuevos
 git commit -am "Se guardan cambios de clase 15"
 //se hace commit directamente sin comando add y con mensaje de commit
+##tener en cuenta que no existan archivos nuevos
