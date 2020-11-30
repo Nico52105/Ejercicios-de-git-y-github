@@ -41,6 +41,6 @@ git show Clase10.txt
 //Muestra los ultimos cambios realizados al archivo
 git commit
 //Guarda los cambios existentes en la zona de cambios y solicita un mensaje
-git log Clase10.txt
+git log
 git diff [id comit mas antiguo] [id comit mas reciente]
-//Con estos dos comandos puedo comparar dos versiones del mismo archivo
+//Con estos dos comandos puedo comparar dos versiones del repositorio
