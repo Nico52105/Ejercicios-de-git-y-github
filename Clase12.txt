@@ -7,3 +7,7 @@ git reset [id comit que se desea restablecer] --hard
 ##Usar mejor git checkout
 git log --stat
 //Muestra en detalle los cambios realizados a los archivos
+git log -- Clase10.txt
+//Muetra los commit realizados sobre un archivo
+git checkout [Id de checkout]
+//retorna el repositorio a la version de checkout que se desea
