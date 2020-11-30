@@ -2,3 +2,4 @@
 ····Introducción a las ramas o branches de Git····
 ---------------------------------------------------------
 git commit -an
+//se hace commit directamente sin comando add
