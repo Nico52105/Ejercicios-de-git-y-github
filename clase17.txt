@@ -1,3 +1,5 @@
 --------------------------------------------------
 ····Resolución de conflictos al hacer un merge····
 --------------------------------------------------
+//los conflictos se resuelven directamente sobre los archivos que tiene el repositorio
+//los conflictos 
