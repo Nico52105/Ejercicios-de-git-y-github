@@ -1,0 +1,13 @@
+---------------------
+····Uso de GitHub····
+---------------------
+git remote add origin [Url https del repositorio remoto]
+//conectar el repositorio local con un repositorio remoto
+git remote
+//Me muestra las ramas existentes en el repositorio remoto
+git remote -v
+//Me muestra las ramas existentes en el repositorio remoto con las url a las cuales esta conectado
+git pull origin master
+//Obtiene los archivos existentes en el repositorio remoto 
+git push origin master
+//Envia los archivos locales existentes al repositorio remoto
