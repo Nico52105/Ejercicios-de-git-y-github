@@ -1,3 +1,5 @@
 --------------------------------------------------
 ····Resolución de conflictos al hacer un merge····
 --------------------------------------------------
+##Los conflictos se resuelven directamente sobre los archivos que tiene el repositorio
+##Los conflictos se resuelven despues de hacer un "git merge" entre dos ramas
