@@ -9,3 +9,5 @@ git commit -am "Se guardan cambios de clase 15"
 ##tener en cuenta que no existan archivos nuevos
 git branch [Nombre de la rama]
 //Crea ramas del repositorio
+git checkout [Nombre de la rama]
+//Con este comando puedo saltar entre tamas
