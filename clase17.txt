@@ -1,5 +1,10 @@
 --------------------------------------------------
 ····Resolución de conflictos al hacer un merge····
 --------------------------------------------------
+<<<<<<< HEAD
 ##Los conflictos se resuelven directamente sobre los archivos que tiene el repositorio
 ##Los conflictos se resuelven despues de hacer un "git merge" entre dos ramas
+=======
+//los conflictos se resuelven directamente sobre los archivos que tiene el repositorio
+//los conflictos 
+>>>>>>> ramaClase15+
