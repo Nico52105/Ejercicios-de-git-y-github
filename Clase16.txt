@@ -1,3 +1,9 @@
 -------------------------------------
 ····Fusión de ramas con Git merge····
 -------------------------------------
+git branch
+//Muestra las ramas existentes en el repositorio
+git merge [rama con cambios que deseo traer]
+//con este comando combino dos ramas
+##tener en cuenta que este comando trae los cambios de una rama a la actual 
+##Ejemplo si estoy en master traer los cambios de desarrollo
