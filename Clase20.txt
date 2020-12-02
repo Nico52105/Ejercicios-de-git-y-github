@@ -1,0 +1,45 @@
+---------------------------------------------------------
+····Configura tus llaves SSH en local····
+---------------------------------------------------------
+##El objetivo de esta clase es autenticarse al repositorio con una llave ssh y dejar de usar el usuario y la contraseña
+##Ver la configuracion local con "git config -l" 
+##y validar que su repositorio local y github tengan el mismo email
+##de lo contrario ajustar tu cuenta de email en tu repositorio con "git congig --global user.email [tu cuenta de correo en git hub]"
+ssh-keygen -t rsa -b 4096 -C "Nico52105@gmail.com"
+//Con este comando podemos crear la llave publica y privada de nuestra maquina
+##este comando luego de ejecutarse pide:
+##Un lugar para almacenar la llave "para dejar por defecto presionar enter" 
+##Una contraseña de seguridad para la llave "para omitir la contraseña presionar enter"
+ssh-add [ruta donde almacenamos nuestra llave privada]
+//Con el comando anterior agregamos una llave privada a nuestra maquina
+##Ejemplo: ssh-add c:/Users/Nicolas/.ssh/id_rsa
+##Respuesta exitosa de ejemplo: Identity added: c:/Users/Nicolas/.ssh/id_rsa (Nico52105@gmail.com)
+---------------------------------------------------------------------------------------------------
+ahora vamos a Configurar la llave en git gub
+---------------------------------------------------------------------------------------------------
+1.devemos buscar nuestra llave publica
+## para esre ejemplo esta en "C:\Users\Nicolas\.ssh\id_rsa.pub"
+2.Devemos copiar el contenido de la llave publica
+3.Ir a github.com
+4.Ir a la congiguracion de nuestra cuenta "settings"
+5.Ingresar en la opcion de "SSH and CPG keys"
+6.Agregar una nueva llave SSH "Boton:[New SSH key]"
+7.llenar formulario para crear la llave
+##En el campo titulo: Dar una descripcion de donde se genero la llave publica
+##En el campo Key: Pegar el contenido de la llave publica [Paso 2]
+8.Guardar llave y confirmar proceso con nuestra contraseña de git hub
+9.Listo
+---------------------------------------------------------------------------------------------------
+ahora vamos a Configurar la consola a configurar la conexion de nuestro repositorio local
+---------------------------------------------------------------------------------------------------
+##Desde este momento podemos usar la opcion SSH para clonar repositorio
+git remote -v
+//1.ver las conexiones de mi repositorio remoto
+##Ejemplo: 
+##         $ git remote -v
+##         origin  https://github.com/Nico52105/Ejercicios-de-git-y-github.git (fetch)
+##         origin  https://github.com/Nico52105/Ejercicios-de-git-y-github.git (push)
+git remote set-url origin [path ssh obtenido de git hub para clonar el repositorio]
+//2.Modificar la forma de conexion al repositorio remoto 
+##Ejemplo: 
+##         $ git remote set-url origin git@github.com:Nico52105/Ejercicios-de-git-y-github.git
