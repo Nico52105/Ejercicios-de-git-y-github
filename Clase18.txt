@@ -4,10 +4,10 @@
 git remote add origin [Url https del repositorio remoto]
 //conectar el repositorio local con un repositorio remoto
 git remote
-//Me muestra las ramas existentes en el repositorio remoto
+//Me muestra la conexion existente con el repositorio remoto
 git remote -v
-//Me muestra las ramas existentes en el repositorio remoto con las url a las cuales esta conectado
+//Me las url del rpositorio remoto
 git pull origin master
-//Obtiene los archivos existentes en el repositorio remoto 
+//Obtiene los archivos existentes en el repositorio remoto de la rama master
 git push origin master
-//Envia los archivos locales existentes al repositorio remoto
+//Envia los archivos locales existentes a la rama master repositorio remoto
