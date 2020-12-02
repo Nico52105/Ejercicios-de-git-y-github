@@ -43,3 +43,4 @@ git remote set-url origin [path ssh obtenido de git hub para clonar el repositor
 //2.Modificar la forma de conexion al repositorio remoto 
 ##Ejemplo: 
 ##         $ git remote set-url origin git@github.com:Nico52105/Ejercicios-de-git-y-github.git
+##Cuando hagamos la primera conexion con el repositorio remoto nos va a solicitar la confirmacion del cambio de autenticacion.
