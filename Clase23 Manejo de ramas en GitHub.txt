@@ -1,0 +1,12 @@
+---------------------------------------------------------
+····Manejo de ramas en GitHub····
+---------------------------------------------------------
+//crear una rama
+git branch [nombre de la nueva rama]
+git branch titulos
+//Me muestra las ramas locales y la historia mas reciente de las mismas
+git show-branch
+//Me muestra las ramas y remotas con su historia
+git show-branch --all
+//abrir la interfaz visual de git
+gitk
