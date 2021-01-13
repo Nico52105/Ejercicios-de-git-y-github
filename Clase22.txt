@@ -1,0 +1,11 @@
+---------------------------------------------------------
+····Tags y versiones en Git y GitHub····
+---------------------------------------------------------
+git log --all
+//muestra todos los commit realizados
+git log --all --graph
+//muestra todos los commit realizados y hace una pequeña grafica al margen izquierdo
+git log --all --graph --decorate --oneline
+//crear un alias para los comandos
+alias arbol="git log --all --graph --decorate --oneline"
+//
