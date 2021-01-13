@@ -8,4 +8,18 @@ git log --all --graph
 git log --all --graph --decorate --oneline
 //crear un alias para los comandos
 alias arbol="git log --all --graph --decorate --oneline"
-//
+//crear un tag sobre un sobre un commit
+git tag -a [nombre del tag] -m [Nota con la que deseo crear el tag] [Hash del commit que deseo marcar]
+git tag -a Crear_Tag -m "Crear un tag" 8352f63
+//consultar los tag creados
+git tag
+//consultar los commit marcados con un tag
+git show-ref --tags
+//enviar los tag a github
+git push origin --tags
+//eliminar un tag en el repositorio local
+git tag -d [nombre del tag]
+git tag -d Crear_Tag
+//eliminar un tag en git hub 
+git push origin :refs/tags/[nombre del tag]
+git push origin :refs/tags/Crear_Tag
