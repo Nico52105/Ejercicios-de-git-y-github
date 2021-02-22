@@ -10,4 +10,3 @@ git show-branch
 git show-branch --all
 //abrir la interfaz visual de git
 gitk
-//
